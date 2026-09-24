@@ -139,7 +139,7 @@ export const MentorDashboard = ({
         <div className="relative z-10">
           <div className="flex items-center gap-2 mb-1 text-xs font-semibold tracking-wider uppercase text-indigo-400">
             <GraduationCap className="w-4 h-4 text-indigo-400" />
-            <span>Department of Computer Science & Engineering</span>
+            <span>Department of Cyber Security</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-3">
             Mentor & Faculty Command Center

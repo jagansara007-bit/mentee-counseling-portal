@@ -93,7 +93,7 @@ export const HODCommandHubView: React.FC<HODCommandHubViewProps> = ({ onInspectS
                 <span className="w-1.5 h-1.5 rounded-full bg-tertiary" />
                 Live Governance Feed
               </span>
-              <span className="text-xs text-outline font-mono">Session Ref: #CSE-DIR-2026-Q2</span>
+              <span className="text-xs text-outline font-mono">Session Ref: #CYS-DIR-2026-Q2</span>
             </div>
             <h1 className="text-3xl font-bold text-on-surface tracking-tight font-display-lg">
               Executive HOD Command Hub
@@ -101,7 +101,7 @@ export const HODCommandHubView: React.FC<HODCommandHubViewProps> = ({ onInspectS
             <p className="text-sm text-on-surface-variant max-w-3xl">
               Supervisory cockpit of{' '}
               <span className="text-on-surface font-semibold">Dr. K. Ramachandran, Ph.D.</span> —
-              Head of Department, Computer Science &amp; Engineering. Reviewing faculty escalation
+              Head of Department, Cyber Security. Reviewing faculty escalation
               dockets, regulatory attendance thresholds, and student tribunals.
             </p>
           </div>
@@ -747,7 +747,7 @@ export const HODCommandHubView: React.FC<HODCommandHubViewProps> = ({ onInspectS
                 {/* Sem IV */}
                 <div className="space-y-1.5">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-on-surface font-semibold">Semester IV (CSE-A &amp; B)</span>
+                    <span className="text-on-surface font-semibold">Semester IV (Cyber Security A &amp; B)</span>
                     <span className="text-outline font-mono">142 Enrolled</span>
                   </div>
                   <div className="h-3 w-full rounded-full bg-surface-container-lowest flex overflow-hidden border border-outline-variant/20">
@@ -766,7 +766,7 @@ export const HODCommandHubView: React.FC<HODCommandHubViewProps> = ({ onInspectS
                 <div className="space-y-1.5">
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-on-surface font-semibold">
-                      Semester VI (CSE &amp; AI Core)
+                      Semester VI (Cyber Security Core)
                     </span>
                     <span className="text-outline font-mono">128 Enrolled</span>
                   </div>

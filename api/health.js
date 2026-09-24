@@ -10,7 +10,7 @@ export default function handler(req, res) {
   res.status(200).json({
     status: 'healthy',
     system: 'MentorSphere Institutional Gateway API',
-    department: 'CSE & AI',
+    department: 'Cyber Security',
     semester: 'Spring 2026',
     serverTimestamp: new Date().toISOString(),
     uptimeSeconds: Math.floor(process.uptime()),

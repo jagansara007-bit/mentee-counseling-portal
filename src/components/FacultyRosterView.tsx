@@ -94,7 +94,7 @@ export const FacultyRosterView: React.FC<FacultyRosterViewProps> = ({
       studentId: selectedStudentForModal.id,
       studentName: selectedStudentForModal.name,
       rollNo: selectedStudentForModal.rollNo,
-      department: selectedStudentForModal.department || 'Computer Science & Engineering',
+      department: selectedStudentForModal.department || 'Cyber Security',
       reportedBy: 'Dr. K. Ramachandran',
       staffRole: 'Faculty Mentor',
       severity: selectedStudentForModal.attendance < 65 ? 'Critical' : 'Severe',
@@ -795,7 +795,7 @@ export const FacultyRosterView: React.FC<FacultyRosterViewProps> = ({
                 </div>
                 <div className="flex flex-col">
                   <span className="text-lg font-bold text-on-surface tracking-tight font-headline-md">
-                    Escalate Mentee to Head of Department (HOD CSE)
+                    Escalate Mentee to Head of Department (HOD Cyber Security)
                   </span>
                   <span className="text-xs text-on-surface-variant">
                     Statutory Disciplinary and Academic Debarment Referral

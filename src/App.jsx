@@ -16,7 +16,7 @@ const AppShell = () => {
     name: 'Dr. K. Ramachandran',
     role: 'Admin/HOD',
     roleTitle: 'Faculty Mentor / HOD',
-    department: 'CSE & AI',
+    department: 'Cyber Security',
     avatar:
       'https://lh3.googleusercontent.com/aida-public/AB6AXuB2BjT1uHsqhEsHiuYsOxe_oyn4U8bJU7yWRvIjQA84JUXZPXkUPg9PFdXxXWGc3MYk8aAd3wT9aImOAQhpepYXsj7B8kcNwAgoMWQceQX2c-ofLsxzzoSQI2iDJrw-I06bNNPYdif69C5Ue683MAM63ThgprbARlCt2O7x1OcPb5y51Wik8mnGvQdrl2zpi2ZFuol1sgef8nUNUFukN1v49BZQT8NU5PDV3V5fdYYgP3Lx4jzNZ8_x9g',
   });
@@ -95,7 +95,7 @@ const AppShell = () => {
                   </span>
                 </div>
                 <span className="font-label-sm text-label-sm text-on-surface-variant hidden sm:inline">
-                  Engineering College Academic Portal | Dept of CSE &amp; AI
+                  Engineering College Academic Portal | Dept of Cyber Security
                 </span>
               </div>
             </div>

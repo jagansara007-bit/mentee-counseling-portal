@@ -99,7 +99,7 @@ export const HODModule: React.FC<HODModuleProps> = ({ onInspectStudent }) => {
         <div className="relative z-10">
           <div className="flex items-center gap-2 mb-1.5 text-xs font-semibold tracking-wider uppercase text-purple-400">
             <Building className="w-4 h-4 text-purple-400" />
-            <span>Executive Academic Governance • Department of Computer Science</span>
+            <span>Executive Academic Governance • Department of Cyber Security</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-3">
             HOD Surveillance & Underperformance Module
