@@ -11,15 +11,8 @@ import { LoginView } from './components/LoginView.jsx';
 const AppShell = () => {
   const { mentees, complaints } = useMentorship();
 
-  // Active user state (default initialized with Senior Faculty/HOD Dr. K. Ramachandran for immediate dashboard preview)
-  const [currentUser, setCurrentUser] = useState({
-    name: 'Dr. K. Ramachandran',
-    role: 'Admin/HOD',
-    roleTitle: 'Faculty Mentor / HOD',
-    department: 'Cyber Security',
-    avatar:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuB2BjT1uHsqhEsHiuYsOxe_oyn4U8bJU7yWRvIjQA84JUXZPXkUPg9PFdXxXWGc3MYk8aAd3wT9aImOAQhpepYXsj7B8kcNwAgoMWQceQX2c-ofLsxzzoSQI2iDJrw-I06bNNPYdif69C5Ue683MAM63ThgprbARlCt2O7x1OcPb5y51Wik8mnGvQdrl2zpi2ZFuol1sgef8nUNUFukN1v49BZQT8NU5PDV3V5fdYYgP3Lx4jzNZ8_x9g',
-  });
+  // Active user state (null on start to display institutional login portal and role gateway)
+  const [currentUser, setCurrentUser] = useState(null);
 
   // Current view: 'student-portal' | 'faculty-roster' | 'hod-command-hub'
   const [activeView, setActiveView] = useState('faculty-roster');
